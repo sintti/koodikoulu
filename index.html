@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" 
+      content="width=device-width, 
+      initial-scale=1.0, 
+      maximum-scale=1.0" />
+    <title>Sanginsuun koulu koodaa!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class='page'>
+      <div class='section header'>
+        <h1><a href="./index.html">Sanginsuun koodikoulu</a></h1>
+          <div class="dropdown">
+            <span class="menulines">&#9776;</span>
+            <ul class="dropdown-menu">
+              <li><a href="./esittely.html">Esittely</a></li>
+              <li><a href="./projektit.html">Projektit</a></li>
+              <li><a href="./galleria.html">Galleria</a></li>
+              <li><a href="./yhteys.html">Yhteystiedot</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class='section gallery'>
+        <div class='photo'>
+          <button class="photo-button left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="photo-button right" onclick="plusDivs(1)">&#10095;</button>
+          <img class="slides" src="images/maisema_1.jpg">
+          <img class="slides" src="images/maisema_2.jpg">
+          <img class="slides" src="images/maisema_3.jpg">
+        </div>
+      </div>
+      <div class="content">
+        <p>Tervetuloa Sanginsuun koulun oppilaiden tekemille sivuille!</p>
+        <div class="esittely">
+          <p>
+            Nämä sivut on tehty osana kevään 2021 Koodikoulu -projektia yhteistyössä Oulun ammattikorkeakoulun kanssa. 
+            Koodikoulussa olemme tehneet pelejä Scratchilla, koodanneet Pythonilla ja harjoitelleet nettisivujen tekemistä.
+            Mukana koodaamassa olivat kaikki koulun oppilaat eka luokasta kuutosiin asti!
+          </p>
+        </div>
+      </div>
+    </div>
+  <script src="slideshow.js"></script>
+  </body>
+</html>
